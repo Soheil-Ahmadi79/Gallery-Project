@@ -1,0 +1,83 @@
+body {
+    margin-top: 0;
+    height: 100vh;
+}
+
+.all {
+    width: 100%;
+    height: 100vh;
+}
+
+.headerside {
+    width: 100%;
+    height: 15%;
+    background: linear-gradient(to right, rgba(125, 226, 125, 0.658), green);
+    text-align: center;
+    display: inline-block;
+}
+
+.headerside .title {
+    color: gold;
+    line-height: 80px;
+    
+}
+
+.mainside {
+    height: 70%;
+    width: 100%;
+    background: url(/assets/images/banner.jpg) center / cover no-repeat, rgb(37, 37, 37);
+    background-blend-mode: multiply;
+    text-align: center;
+}
+
+.gallery {
+    width: 600px;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.leftside,
+.centerside,
+.rightside {
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+    padding: 10px 5px 10px 5px;
+    vertical-align: top;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+    margin: 6px 0px 8px 0;
+    border-radius: 5px;
+}
+
+.centerside .image1 {
+    margin: 6px 0 20px 0;
+}
+
+.centerside .image2 {
+    margin: 10px 0 20px 0;
+    width: 120px;
+    border-radius: 100%;
+    box-shadow: 0 0 15px black ;
+    border: 1px solid black;
+}
+
+.centerside .image3 {
+    margin: 7px 0 0 0;
+}
+.paragraphsection{
+    display: inline-block;
+    width: 25%;
+    background-color:rgba(0, 255, 255, 0.516) ;
+    text-align: justify;
+    border-radius: 5px;
+    padding: 0 20px 0 20px;
+    margin-top: 15px;
+}
+.paragraphsection h1{
+    text-shadow: 0 0 10px rgb(255, 3, 3);
+}
